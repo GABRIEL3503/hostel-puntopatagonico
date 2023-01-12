@@ -192,7 +192,7 @@ h6 {
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: -30px 0;
   top: 40px;
 }
 
@@ -221,7 +221,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height:51px;
+  max-height:121px;
 }
 
 /*--------------------------------------------------------------
@@ -512,7 +512,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: var(--color-primary);
+  color: #cda45e;
 }
 
 #hero h2 {
@@ -621,11 +621,11 @@ h6 {
   border-radius: 0;
 }
 
-@media (min-width: 1024px) {
+
   #hero {
     background-attachment: fixed;
   }
-}
+
 
 @media (max-width: 992px) {
   #hero .play-btn {
@@ -875,10 +875,10 @@ section {
   margin-bottom: 0;
 }
 
-@media (min-width: 1024px) {
+
   .about {
     background-attachment: fixed;
-  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -1113,7 +1113,7 @@ section {
 
 @media (min-width: 1024px) {
   .events {
-    background-attachment: fixed;
+    : fixed;
   }
 }
 
@@ -1503,7 +1503,8 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  
+  font-size: 45px;
   display: inline-block;
   background: #28251f;
   color: #fff;
@@ -1512,8 +1513,8 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 65px;
+  height: 65px;
   transition: 0.3s;
 }
 
@@ -1615,4 +1616,11 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.map{
+  margin-left: 124px;
+  margin-right: 22px;
+}
+.footsocial{
+  margin-left: -8px;
 }
