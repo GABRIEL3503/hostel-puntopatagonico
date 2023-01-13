@@ -1316,7 +1316,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: var(--color-primary);
   display: flex;
   justify-content: center;
   align-items: center;
