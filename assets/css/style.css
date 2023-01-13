@@ -12,7 +12,7 @@
 :root {
   --color-head: rgb(0 15 32);
   --color-default: #2b180d;
-  --color-primary: #eb7e35;
+  --color-primary: #e6a33f;
    --color-celest: #56b8e6; 
   --color-secondary: #1b2f45;
 }
@@ -512,7 +512,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #cda45e;
+  color: var(--color-primary);
 }
 
 #hero h2 {
@@ -723,7 +723,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -784,7 +784,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/punto-patagonico/uno.jpg") center center;
+  background: url("../img/punto-patagonico/Shiny\ Overlay.svg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -792,7 +792,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(226, 156, 26, 0.856);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -807,7 +807,7 @@ section {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid rgb(255, 255, 255);
   position: relative;
 }
 
@@ -819,8 +819,8 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid rgba(211, 134, 0, 0.76);
+  border-top: 5px solid rgba(211, 134, 0, 0.76);
   transition: 0.5s;
 }
 
@@ -832,8 +832,8 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid rgb(211 133 0);
+  border-bottom: 5px solid rgb(211 133 0);
   transition: 0.5s;
 }
 
@@ -852,7 +852,8 @@ section {
 }
 
 .about .content h3 {
-  font-weight: 600;
+  color: #0c0b09;
+  font-weight: 800;
   font-size: 26px;
 }
 
@@ -868,7 +869,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #2b2823;
 }
 
 .about .content p:last-child {
@@ -1066,7 +1067,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .specials .details p {
@@ -1129,7 +1130,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: var(--color-primary);
 }
 
 .events .event-item .price {
@@ -1485,6 +1486,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
+  color: var(--color-primary);
   font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -1504,9 +1506,9 @@ section {
 
 #footer .footer-top .social-links a {
   
-  font-size: 45px;
+  font-size: 49px;
   display: inline-block;
-  background: #28251f;
+  background: var(--color-primary);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1519,8 +1521,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cda45e;
-  color: #fff;
+  background: #ffffff;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
